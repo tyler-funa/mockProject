@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+/*navbar*/
+.nav {
+  text-align: justify;
+  background-color: rgb(21, 21, 21);
+  list-style-type: none;
+  /*for the dots*/
+  overflow: hidden;
+}
+/* .nav:after {
+  content: '';
+  width: 100%;
+  display: inline-block;
+}  just some expermination to make lists span entire width*/
+header nav ul li {
+  float: left;
+  /* display: inline-block; */
+}
+.nav-item {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  /*to remove underline*/
+  text-align: center;
+  color: #D013ED;
+}
+.nav-item:hover {
+  background-color: rgba(253, 253, 253, 0.5);
+}
+/*navbar*/
+/*footer*/
+footer nav ul li {
+  float: right;
+}
+/*footer*/
